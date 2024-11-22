@@ -28,8 +28,7 @@ Install my-project with npm
 To deploy this project run
 
 
-  https://prompt-verse-k.vercel.app/
-
+https://prompt-verse-2-0.vercel.app/
 
 
 ## Environment Variables
