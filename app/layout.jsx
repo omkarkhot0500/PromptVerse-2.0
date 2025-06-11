@@ -6,17 +6,20 @@ import Provider from "@components/Provider";
 export const metadata = {
   title: "PromptVerse",
   description: "Discover & Share AI Prompts",
+  icons: {
+    icon: "/public/favicon.svg", // 👈 This is the favicon
+  },
 };
 
 const RootLayout = ({ children }) => (
-  <html lang='en'>
+  <html lang="en">
     <body>
       <Provider>
-        <div className='main'>
-          <div className='gradient' />
+        <div className="main">
+          <div className="gradient" />
         </div>
 
-        <main className='app'>
+        <main className="app">
           <Nav />
           {children}
         </main>
